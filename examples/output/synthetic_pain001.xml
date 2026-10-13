@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+  <CstmrCdtTrfInitn>
+    <GrpHdr>
+      <MsgId>SYNTHETIC-BATCH</MsgId>
+      <CreDtTm>2025-04-01T09:00:00Z</CreDtTm>
+      <NbOfTxs>3</NbOfTxs>
+      <CtrlSum>75000.00</CtrlSum>
+      <InitgPty>
+        <Nm>Synthetic Entity E1</Nm>
+      </InitgPty>
+    </GrpHdr>
+    <PmtInf>
+      <PmtInfId>SYNTHETIC-BATCH</PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
+      <NbOfTxs>3</NbOfTxs>
+      <CtrlSum>75000.00</CtrlSum>
+      <ReqdExctnDt>2025-04-01</ReqdExctnDt>
+      <Dbtr>
+        <Nm>Synthetic Entity E1</Nm>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>A100</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BIC>SYNBUS33XXX</BIC>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtTrfTxInf>
+        <PmtId>
+          <EndToEndId>P001</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="USD">25000.00</InstdAmt>
+        </Amt>
+        <Cdtr>
+          <Nm>Synthetic Vendor A</Nm>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>SYNTH001</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+        <RmtInf>
+          <Ustrd>Synthetic payment</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+      <CdtTrfTxInf>
+        <PmtId>
+          <EndToEndId>P002</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="USD">30000.00</InstdAmt>
+        </Amt>
+        <Cdtr>
+          <Nm>Synthetic Vendor B</Nm>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>SYNTH002</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+        <RmtInf>
+          <Ustrd>Synthetic payment</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+      <CdtTrfTxInf>
+        <PmtId>
+          <EndToEndId>P003</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="USD">20000.00</InstdAmt>
+        </Amt>
+        <Cdtr>
+          <Nm>Synthetic Vendor C</Nm>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>SYNTH003</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+        <RmtInf>
+          <Ustrd>Synthetic payment</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+    </PmtInf>
+  </CstmrCdtTrfInitn>
+</Document>

@@ -1,0 +1,17 @@
+{
+  "tests_run": 150,
+  "failures": 0,
+  "errors": 0,
+  "result": "OK",
+  "command": "python -m unittest discover -s tests -v",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "examples": [
+    {
+      "script": "examples/run_workflow.py",
+      "exit_code": 0
+    }
+  ],
+  "ci_executed": false
+}

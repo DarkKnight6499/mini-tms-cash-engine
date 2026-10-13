@@ -1,0 +1,9 @@
+entity,bank,account,currency,role,parent,target
+E1,BANKA,A100,USD,concentration,,200000
+E1,BANKB,A200,EUR,concentration,,100000
+E1,BANKC,A300,GBP,concentration,,80000
+E2,BANKA,A101,USD,disbursement,A100,0
+E2,BANKB,A102,USD,collection,A100,0
+E3,BANKB,A201,EUR,disbursement,A200,0
+E4,BANKC,A301,GBP,collection,A300,0
+E3,BANKC,A103,USD,local,,20000

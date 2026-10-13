@@ -1,0 +1,6 @@
+entity,week,line,forecast,actual,missing_actual,variance,absolute_error,ape,explanation
+E4,0,receipts,40616.926029,26283.966967,False,-14332.959063,14332.959063,0.545312,"E4, week 1, receipts: actual minus forecast -14,332.96; pattern consistent with lower or delayed collections. Cause is a hypothesis, not confirmed."
+E3,8,receipts,66402.310217,52193.230966,False,-14209.079251,14209.079251,0.272240,"E3, week 9, receipts: actual minus forecast -14,209.08; pattern consistent with lower or delayed collections. Cause is a hypothesis, not confirmed."
+E1,5,receipts,86016.990580,72264.688572,False,-13752.302008,13752.302008,0.190305,"E1, week 6, receipts: actual minus forecast -13,752.30; pattern consistent with lower or delayed collections. Cause is a hypothesis, not confirmed."
+E1,0,receipts,38015.765630,25643.588068,False,-12372.177562,12372.177562,0.482467,"E1, week 1, receipts: actual minus forecast -12,372.18; pattern consistent with lower or delayed collections. Cause is a hypothesis, not confirmed."
+E4,0,vendors,-105006.390051,-116335.071608,False,-11328.681558,11328.681558,0.097380,"E4, week 1, vendors: actual minus forecast -11,328.68; pattern consistent with larger outflows. Cause is a hypothesis, not confirmed."

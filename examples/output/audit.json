@@ -1,0 +1,42 @@
+[
+  {
+    "sequence": 0,
+    "timestamp": "2025-04-01T09:00:00Z",
+    "action": "CREATE",
+    "actor": "maker",
+    "batch_id": "SYNTHETIC-BATCH",
+    "payload_hash": "676ac0ba92b633b26201e36cb74202b8874c73034e47723a2d0a54646bd8bebb",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "event_hash": "6d281f4d5fd6e6c676d1c18632cff16628fdf1a4e49608ed8366ef6b58c7cdb9"
+  },
+  {
+    "sequence": 1,
+    "timestamp": "2025-04-01T09:00:00Z",
+    "action": "APPROVE",
+    "actor": "checker_a",
+    "batch_id": "SYNTHETIC-BATCH",
+    "payload_hash": "676ac0ba92b633b26201e36cb74202b8874c73034e47723a2d0a54646bd8bebb",
+    "previous_hash": "6d281f4d5fd6e6c676d1c18632cff16628fdf1a4e49608ed8366ef6b58c7cdb9",
+    "event_hash": "da9bf24630f129ab31b32c1a515cdad03cb282264a0fbe4cab2ea9946f9f5279"
+  },
+  {
+    "sequence": 2,
+    "timestamp": "2025-04-01T09:00:00Z",
+    "action": "APPROVE",
+    "actor": "checker_b",
+    "batch_id": "SYNTHETIC-BATCH",
+    "payload_hash": "676ac0ba92b633b26201e36cb74202b8874c73034e47723a2d0a54646bd8bebb",
+    "previous_hash": "da9bf24630f129ab31b32c1a515cdad03cb282264a0fbe4cab2ea9946f9f5279",
+    "event_hash": "7580b3e3b94fd27d28f658b447cee7a11fd12a3bac6d4939e4038f70055f3292"
+  },
+  {
+    "sequence": 3,
+    "timestamp": "2025-04-01T09:00:00Z",
+    "action": "EXPORT",
+    "actor": "maker",
+    "batch_id": "SYNTHETIC-BATCH",
+    "payload_hash": "287345900d4c66c33a603268cbb0d70df2ffe334a65223096957676945f9dea3",
+    "previous_hash": "7580b3e3b94fd27d28f658b447cee7a11fd12a3bac6d4939e4038f70055f3292",
+    "event_hash": "4313d1206b2506e8794d63969622ea595e145333c0fa0eb6ce708d411a81095e"
+  }
+]

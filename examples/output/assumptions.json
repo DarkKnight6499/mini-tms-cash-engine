@@ -1,0 +1,118 @@
+{
+  "label": "synthetic and stylized, not regulatory parameters",
+  "reporting_currency": "USD",
+  "collection_policy": {
+    "current": [
+      0.95,
+      [
+        [
+          0,
+          0.4
+        ],
+        [
+          1,
+          0.4
+        ],
+        [
+          2,
+          0.2
+        ]
+      ]
+    ],
+    "overdue_30": [
+      0.85,
+      [
+        [
+          0,
+          0.2
+        ],
+        [
+          1,
+          0.4
+        ],
+        [
+          3,
+          0.4
+        ]
+      ]
+    ],
+    "overdue_60": [
+      0.65,
+      [
+        [
+          1,
+          0.2
+        ],
+        [
+          3,
+          0.4
+        ],
+        [
+          5,
+          0.4
+        ]
+      ]
+    ],
+    "overdue_90": [
+      0.35,
+      [
+        [
+          2,
+          0.2
+        ],
+        [
+          5,
+          0.4
+        ],
+        [
+          8,
+          0.4
+        ]
+      ]
+    ]
+  },
+  "pooling_rates": {
+    "USD": [
+      0.035,
+      0.075
+    ],
+    "EUR": [
+      0.025,
+      0.06
+    ],
+    "GBP": [
+      0.04,
+      0.08
+    ]
+  },
+  "forward_rates": {
+    "USD": 0.045,
+    "EUR": 0.03,
+    "GBP": 0.05
+  },
+  "hedge_policy": {
+    "near": [
+      0.8,
+      0.7,
+      0.9
+    ],
+    "medium": [
+      0.6,
+      0.5,
+      0.7
+    ],
+    "far": [
+      0.4,
+      0.3,
+      0.5
+    ]
+  },
+  "buffers_usd": {
+    "E1": 200000.0,
+    "E2": 50000.0,
+    "E3": 40000.0,
+    "E4": 30000.0
+  },
+  "second_approval_threshold_cents": 5000000,
+  "actuals_seed": 8675309
+}

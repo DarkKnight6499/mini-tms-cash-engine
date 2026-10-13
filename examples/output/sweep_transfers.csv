@@ -1,0 +1,5 @@
+source,destination,currency,amount,intercompany
+A100,A101,USD,290682.190000,True
+A102,A100,USD,4803.050000,True
+A200,A201,EUR,183567.470000,True
+A300,A301,GBP,92076.270000,True
