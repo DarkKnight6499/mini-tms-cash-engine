@@ -1,0 +1,17 @@
+{
+  "discount": 0.02,
+  "discount_days": 10,
+  "net_days": 30,
+  "apr": 0.37244897959183676,
+  "borrowing_rate": 0.06,
+  "take_discount": true,
+  "dynamic_discount": 0.015,
+  "dynamic_apr": 0.37055837563451777,
+  "dynamic_break_even_discount": 0.0024596884394643345,
+  "dynamic_discount_is_fundable": true,
+  "scf_rate": 0.05,
+  "scf_break_even_rate": 0.06,
+  "scf_cost_per_invoice_dollar": 0.00410958904109589,
+  "scf_net_benefit_per_invoice_dollar": 0.0008219178082191776,
+  "scf_is_economic": true
+}

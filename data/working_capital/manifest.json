@@ -1,0 +1,14 @@
+{
+  "method": "Annual 10-K USD facts; exact period alignment; latest filed fact per tag and period.",
+  "requests": [
+    {
+      "url": "https://www.sec.gov/files/company_tickers.json",
+      "retrieved_at": "2026-10-21T14:55:54.632633+00:00",
+      "path": "company_tickers.json",
+      "sha256": null,
+      "status": "failed",
+      "error": "URLError: <urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    }
+  ],
+  "issuers": []
+}

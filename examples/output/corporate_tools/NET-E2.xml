@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+  <CstmrCdtTrfInitn>
+    <GrpHdr>
+      <MsgId>NET-E2</MsgId>
+      <CreDtTm>2025-04-01T09:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <CtrlSum>464878.55</CtrlSum>
+      <InitgPty>
+        <Nm>NETTING_CENTER</Nm>
+      </InitgPty>
+    </GrpHdr>
+    <PmtInf>
+      <PmtInfId>NET-E2</PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
+      <NbOfTxs>1</NbOfTxs>
+      <CtrlSum>464878.55</CtrlSum>
+      <ReqdExctnDt>2025-04-30</ReqdExctnDt>
+      <Dbtr>
+        <Nm>NETTING_CENTER</Nm>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>NETUSD</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BIC>SYNBUS33XXX</BIC>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtTrfTxInf>
+        <PmtId>
+          <EndToEndId>NET-E2</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="USD">464878.55</InstdAmt>
+        </Amt>
+        <Cdtr>
+          <Nm>E2</Nm>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>A101</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+        <RmtInf>
+          <Ustrd>Synthetic netting settlement</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+    </PmtInf>
+  </CstmrCdtTrfInitn>
+</Document>

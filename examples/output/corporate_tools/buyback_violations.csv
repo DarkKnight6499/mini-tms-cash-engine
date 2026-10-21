@@ -1,0 +1,10 @@
+date,trade_id,rule_paragraph,detail
+2025-04-01,BB-0-0,(b)(1),More than one broker or dealer in the primary session
+2025-04-01,BB-0-1,(b)(1),More than one broker or dealer in the primary session
+2025-04-01,BB-0-2,(b)(1),More than one broker or dealer in the primary session
+2025-04-01,BB-0-0,(b)(4),Daily purchases exceed 25% of prior four-calendar-week ADTV
+2025-04-01,BB-0-1,(b)(4),Daily purchases exceed 25% of prior four-calendar-week ADTV
+2025-04-01,BB-0-2,(b)(4),Daily purchases exceed 25% of prior four-calendar-week ADTV
+2025-04-01,BB-0-0,(b)(2)(i),Opening regular-way purchase
+2025-04-01,BB-0-2,(b)(2)(ii),Purchase within the applicable closing restriction
+2025-04-02,BB-1-0,(b)(3),Price above both independent bid and last independent transaction

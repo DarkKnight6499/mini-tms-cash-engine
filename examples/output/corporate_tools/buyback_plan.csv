@@ -1,0 +1,2 @@
+date,broker,time,shares,price,spend,adtv,daily_volume_cap
+2025-04-01,SYNTHETIC_BROKER_A,10:00,10000,50.0,500000.0,1000000.0,250000

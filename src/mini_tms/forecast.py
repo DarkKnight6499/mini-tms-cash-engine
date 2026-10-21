@@ -8,6 +8,8 @@ import numpy as np
 import pandas as pd
 
 from .rates import FXTable
+from . import config as cfg
+from .config import C
 
 # Collection probabilities and timing distributions are stylized policy assumptions.
 COLLECTION_POLICY = {
@@ -16,8 +18,31 @@ COLLECTION_POLICY = {
     "overdue_60": (.65, ((1, .2), (3, .4), (5, .4))),
     "overdue_90": (.35, ((2, .2), (5, .4), (8, .4))),
 }
-LINES = ("receipts", "vendors", "payroll", "tax", "debt_service", "intercompany")
+LINES = ("receipts", "vendors", "payroll", "tax", "debt_service", "intercompany", "buyback", "netting")
 FLOW_COLUMNS = ["entity", "currency", "week", "line", "amount", "reference"]
+
+
+def treasury_flows(netting_instructions: pd.DataFrame, buyback_plan: pd.DataFrame,
+                   start: date, horizon: int = cfg.HORIZON) -> pd.DataFrame:
+    """Add participant and center settlement legs plus planned repurchase spending."""
+    if type(horizon) is not int or horizon <= 0:
+        raise ValueError("Positive integer forecast horizon required")
+    rows = []
+
+    def add(entity, currency, day, amount, line, reference):
+        week = (date.fromisoformat(day) - start).days // 7
+        if not isfinite(amount):
+            raise ValueError("Finite treasury cash flow required")
+        if 0 <= week < horizon:
+            rows.append({C.ENTITY: entity, C.CURRENCY: currency, C.WEEK: week, C.LINE: line,
+                         C.AMOUNT: amount, C.REFERENCE: reference})
+
+    for r in netting_instructions.to_dict("records"):
+        add(r[C.ENTITY], r[C.CURRENCY], r[C.DATE], r[C.SIGNED], "netting", r[C.PAYMENT_ID])
+        add(cfg.CENTER_ENTITY, r[C.CURRENCY], r[C.DATE], -r[C.SIGNED], "netting", r[C.PAYMENT_ID])
+    for r in buyback_plan.to_dict("records"):
+        add(cfg.BUYBACK_ENTITY, cfg.NETTING_CURRENCY, r[C.DATE], -r[C.SPEND], "buyback", "PLANNED-BUYBACK")
+    return pd.DataFrame(rows, columns=FLOW_COLUMNS)
 
 
 def direct_flows(ar: pd.DataFrame, ap: pd.DataFrame, scheduled: pd.DataFrame,

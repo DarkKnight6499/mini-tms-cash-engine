@@ -1,0 +1,43 @@
+{
+  "label": "Illustrative financial scenarios except cited regulatory constants",
+  "seeds": [
+    20250318,
+    20250319,
+    20250320
+  ],
+  "netting_currency": "USD",
+  "cycle_settlement_date": "2025-04-30",
+  "center_owner_entity": "E1",
+  "illustrative_clearing_accounts": {
+    "USD": "NETUSD",
+    "EUR": "NETEUR",
+    "GBP": "NETGBP"
+  },
+  "wire_fee": 20.0,
+  "fx_spread_bps": 8.0,
+  "pool_rate": 0.04,
+  "arm_length_spread": 0.005,
+  "bank_interest_rates": {
+    "USD": [
+      0.035,
+      0.075
+    ],
+    "EUR": [
+      0.025,
+      0.06
+    ],
+    "GBP": [
+      0.04,
+      0.08
+    ]
+  },
+  "ecr": 0.02,
+  "carry_excess_eca": false,
+  "money_fund_yield": 0.045,
+  "borrowing_rate": 0.06,
+  "cash_yield": 0.04,
+  "tax_rate": 0.25,
+  "regulatory_reserve_ratio": 0.0,
+  "regulatory_volume_fraction": 0.25,
+  "working_capital_source": "tests\\fixtures\\working_capital.csv"
+}

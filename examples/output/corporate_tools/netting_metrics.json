@@ -1,0 +1,19 @@
+{
+  "gross_payment_count": 150,
+  "gross_value_usd": 4161932.683228612,
+  "bilateral_payment_count": 6,
+  "bilateral_value_usd": 575555.4378047845,
+  "multilateral_payment_count": 4,
+  "multilateral_value_usd": 464878.54698485474,
+  "value_reduction_pct": 88.83022426436206,
+  "gross_fx_conversions": 199,
+  "net_fx_conversions": 2,
+  "fx_conversions_avoided": 197,
+  "gross_converted_volume_usd": 5648617.520715697,
+  "net_converted_volume_usd": 376172.8346880402,
+  "converted_volume_avoided_usd": 5272444.686027656,
+  "estimated_savings_usd": 7137.955748822125,
+  "wire_fee_illustrative": 20.0,
+  "fx_spread_bps_illustrative": 8.0,
+  "rounding_residual_usd": -0.009467875512200408
+}

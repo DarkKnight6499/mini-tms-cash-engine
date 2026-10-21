@@ -1,0 +1,16 @@
+issuer,fiscal_year,period_start,period_end,days,ar_open,ar,inventory_open,inventory,ap_open,ap,revenue,cogs,provenance
+HAS,2020,2020-01-01,2020-12-31,366,90,100,70,80,50,60,1000,600,Illustrative synthetic fixture; not issuer financial data
+HAS,2021,2021-01-01,2021-12-31,365,100,110,80,84,60,62,1100,660,Illustrative synthetic fixture; not issuer financial data
+HAS,2022,2022-01-01,2022-12-31,365,110,105,84,90,62,65,1150,690,Illustrative synthetic fixture; not issuer financial data
+HAS,2023,2023-01-01,2023-12-31,365,105,115,90,86,65,68,1200,720,Illustrative synthetic fixture; not issuer financial data
+HAS,2024,2024-01-01,2024-12-31,366,115,120,86,88,68,70,1250,750,Illustrative synthetic fixture; not issuer financial data
+WHR,2020,2020-01-01,2020-12-31,366,180,200,140,160,100,120,2000,1200,Illustrative synthetic fixture; not issuer financial data
+WHR,2021,2021-01-01,2021-12-31,365,200,220,160,168,120,124,2200,1320,Illustrative synthetic fixture; not issuer financial data
+WHR,2022,2022-01-01,2022-12-31,365,220,210,168,180,124,130,2300,1380,Illustrative synthetic fixture; not issuer financial data
+WHR,2023,2023-01-01,2023-12-31,365,210,230,180,172,130,136,2400,1440,Illustrative synthetic fixture; not issuer financial data
+WHR,2024,2024-01-01,2024-12-31,366,230,240,172,176,136,140,2500,1500,Illustrative synthetic fixture; not issuer financial data
+KSS,2020,2020-01-01,2020-12-31,366,270,300,210,240,150,180,3000,1800,Illustrative synthetic fixture; not issuer financial data
+KSS,2021,2021-01-01,2021-12-31,365,300,330,240,252,180,186,3300,1980,Illustrative synthetic fixture; not issuer financial data
+KSS,2022,2022-01-01,2022-12-31,365,330,315,252,270,186,195,3450,2070,Illustrative synthetic fixture; not issuer financial data
+KSS,2023,2023-01-01,2023-12-31,365,315,345,270,258,195,204,3600,2160,Illustrative synthetic fixture; not issuer financial data
+KSS,2024,2024-01-01,2024-12-31,366,345,360,258,264,204,210,3750,2250,Illustrative synthetic fixture; not issuer financial data

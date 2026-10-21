@@ -155,6 +155,8 @@ def main() -> None:
               latest[["account", "entity", "currency", "balance_native", "balance_reporting", "stale"]],
               forecast[["entity", "week_start", "week_end", "opening", "net_flow", "closing", "buffer", "breach"]], source.exceptions)
     print(json.dumps(results, indent=2))
+    from run_corporate_tools import main as run_corporate_tools
+    run_corporate_tools()
 
 
 if __name__ == "__main__":

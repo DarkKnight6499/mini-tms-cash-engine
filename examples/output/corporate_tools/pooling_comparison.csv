@@ -1,0 +1,4 @@
+structure,group_interest_usd,overdraft_avoided_usd_days,intercompany_loan_facilities,intercompany_advances,operational_notes
+physical,6726.959906961303,39714956.25790289,5,450,Daily native-currency transfers; participant loans and header residual interest allocation.
+notional,7143.02072259135,39714956.25790289,0,0,Existing daily notional compensation; no transfers; cross-currency set-off assumed illustrative.
+standalone,2543.34830303914,0.0,0,0,Same unswept daily operating balances without compensation.

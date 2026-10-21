@@ -1,17 +1,22 @@
 {
-  "tests_run": 150,
+  "tests_run": 213,
   "failures": 0,
   "errors": 0,
   "result": "OK",
-  "command": "python -m unittest discover -s tests -v",
+  "command": "$env:PYTHONPATH='D:\\Code\\Resume\\_Reference\\_pylibs;D:\\Code\\mini-tms-cash-engine\\src'; & 'C:\\Users\\yazad\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -m unittest discover -s tests -v",
   "python": "3.12.14",
-  "numpy": "2.3.5",
-  "pandas": "3.0.1",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
   "examples": [
     {
       "script": "examples/run_workflow.py",
       "exit_code": 0
     }
   ],
-  "ci_executed": false
+  "ci_executed": false,
+  "passed": 212,
+  "skipped": 1,
+  "verified_at": "2026-10-21T14:58:10.588818+00:00",
+  "workbook_formula_comparisons": 170,
+  "sec_snapshot": "absent; ticker fetch blocked by WinError 10013"
 }
